@@ -8,7 +8,7 @@ abstract class ValueObjects<T> {
   const ValueObjects();
 
   @override
-  bool operator ==(covariant EmailAddress other) {
+  bool operator ==(covariant ValueObjects other) {
     if (identical(this, other)) return true;
 
     return other.value == value;
